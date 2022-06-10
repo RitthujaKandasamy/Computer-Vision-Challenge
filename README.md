@@ -10,21 +10,18 @@ In sudoku, the algorithm will put a number in an empty space and then move on to
 ### Some Requirement to predict Sudoku in opencv
 
 <details>
-<summary>Window</summary>
 
 
 
-|     Vision      |         Instructions                                                                 |        
+
+|    Vision      |         Instructions                                                                 |        
 | --------------- | ------------------------------------- |
-|      3.9        | <a href="https://pypi.org/project/opencv-python/">To install opencv-python</a>       |
-| [conda-forge]   | `conda install -c conda-forge zoxide` |
-| [Homebrew]      | `brew install zoxide`                 |
-| [MacPorts]      |                   |        
+|     3.9        | <a href="https://www.python.org/downloads/">To install Phyton</a>       |
+|     4.5.5   |  <a href="https://pypi.org/project/opencv-python/">To install opencv-python</a>|
+|     1.22     | <a href="https://anaconda.org/conda-forge/matplotlib">To install Numpy</a>                 |
+|      3.5     | <a href="https://pypi.org/project/numpy/">To install Matplotlib</a>                  |        
 
 
 </details>
 
-Python = version 3.9
-openCV = version 4.5.5
-Numpy = version 1.22
-Matplotlib = version 3.5
+
