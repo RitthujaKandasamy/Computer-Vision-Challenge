@@ -11,7 +11,7 @@ In sudoku, the algorithm will put a number in an empty space and then move on to
 
 <details>
   
-<summary>Package</summary>
+<summary>Pip</summary>
 
 
 
@@ -19,11 +19,27 @@ In sudoku, the algorithm will put a number in an empty space and then move on to
 |    Vision      |         Instructions                                                                 |        
 | --------------- | ------------------------------------- |
 |     3.9        | <a href="https://www.python.org/downloads/">To install Phyton</a>       |
-|     4.5.5   |  <a href="https://pypi.org/project/opencv-python/">To install opencv-python</a>|
-|     1.22     | <a href="https://anaconda.org/conda-forge/matplotlib">To install Numpy</a>                 |
-|      3.5     | <a href="https://pypi.org/project/numpy/">To install Matplotlib</a>                  |        
+|     4.6.0   |  <a href="https://pypi.org/project/opencv-python/">To install opencv-python</a>|
+|     1.22     | <a href="https://pypi.org/project/numpy/">To install Numpy</a>                 |
+|      3.5     | <a href="https://pypi.org/project/matplotlib/">To install Matplotlib</a>                  |        
 
 
 </details>
 
 
+<details>
+  
+<summary>Anaconda</summary>
+
+
+
+
+|    Vision      |         Instructions                                                                 |        
+| --------------- | ------------------------------------- |
+|     3.10.4       | <a href="https://anaconda.org/anaconda/python">To install Phyton</a>       |
+|     4.5.5   |  <a href="https://anaconda.org/conda-forge/opencv">To install opencv-python</a>|
+|     1.22     | <a href="https://anaconda.org/anaconda/numpy">To install Numpy</a>                 |
+|      3.5     | <a href="https://anaconda.org/conda-forge/matplotlib">To install Matplotlib</a>                  |        
+
+
+</details>
