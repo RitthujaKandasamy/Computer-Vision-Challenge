@@ -7,4 +7,21 @@ In sudoku, the algorithm will put a number in an empty space and then move on to
 ![sudoku](https://user-images.githubusercontent.com/99767517/173079264-58980e28-bb7c-45ab-9944-eb3da718168a.png)
 
 
-### Requirement to predict Sudoku in opencv
+### Some Requirement to predict Sudoku in opencv
+
+<details>
+<summary>macOS</summary>
+
+To install zoxide, use a package manager:
+
+| Repository      | Instructions                          |
+| --------------- | ------------------------------------- |
+| **[crates.io]** | `cargo install zoxide --locked`       |
+| [conda-forge]   | `conda install -c conda-forge zoxide` |
+| [Homebrew]      | `brew install zoxide`                 |
+| [MacPorts]      | `port install zoxide`                 |
+
+</details>
+
+<details>
+<summary>Windows</summary>
