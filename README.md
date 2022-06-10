@@ -10,6 +10,8 @@ In sudoku, the algorithm will put a number in an empty space and then move on to
 ### Some Requirement to predict Sudoku in opencv
 
 <details>
+  
+<summary>Package</summary>
 
 
 
