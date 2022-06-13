@@ -16,7 +16,7 @@ def preprocessing(image):
     gray= cv2.cvtColor(gray, cv2.COLOR_BGR2GRAY)
 
     # Set the threshold and find contours
-    rtv, threshold = cv2.threshold(gray, 100, 255, cv2.THRESH_BINARY_INV, +cv2.THRESH_OTSU)    
+    rtv, threshold = cv2.threshold(gray, 210, 255, cv2.THRESH_BINARY_INV, +cv2.THRESH_OTSU)    
     contours, hier = cv2.findContours(threshold,cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
     sort_cont = sorted(contours, key=cv2.contourArea, reverse=True)     # The function computes a contour area.
     drawing = cv2.drawContours(rgb_img, sort_cont[0], -1, (0,255,0), 2)
@@ -31,12 +31,12 @@ def preprocessing(image):
     img_crop =cv2.resize(img_crop, (1008,1008))
 
     # Trying with these loops to get all the cells separete.
-    for i in range(9):
-        for k in range(9):
-            for j in range(9):
-                image= img_crop[i*111:(i+1)*111, k*111:(k+1)*111]         # tried with several values, the best combination is 111
-                f_name= f'cell/cell_{i}{k+1}.png'
-                image= cv2.imwrite(f_name,image)
+    # for i in range(9):
+    #     for k in range(9):
+    #         for j in range(9):
+    #             image= img_crop[i*111:(i+1)*111, k*111:(k+1)*111]         # tried with several values, the best combination is 111
+    #             f_name= f'cell/cell_{i}{k+1}.png'
+    #             image= cv2.imwrite(f_name,image)
 
     # plotting the crop img
     plt.imshow(img_crop, cmap='gray')
